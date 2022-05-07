@@ -30,7 +30,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.linear_model import Ridge
 from sklearn.ensemble import RandomForestRegressor, ExtraTreesRegressor
 from sklearn.model_selection import GridSearchCV, TimeSeriesSplit
- from sklearn.feature_selection import RFECV
+from sklearn.feature_selection import RFECV
 from sklearn.inspection import permutation_importance
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
